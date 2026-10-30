@@ -1,0 +1,26 @@
+# 截图与浏览器调试残留（含 Chrome 用户目录，绝不能提交）
+.shots/
+_shot/
+shader_cache/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 构建中间产物
+desktop/_tmp/
+*.obj
+*.pdb
+
+# 编译出来的可执行文件：由源码重新构建，不进版本库
+desktop/德州扑克.exe
+desktop/launcher_console.exe
+desktop/dist/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

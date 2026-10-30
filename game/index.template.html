@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>德州扑克</title>
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body>
+<div id="app">
+
+  <div id="tableWrap">
+    <div id="topbar">
+      <span class="brand">德州扑克</span>
+      <span class="chip" id="topChips">手数 <b>0</b></span>
+      <span class="chip" id="topBlinds">盲注 <b>0/0</b></span>
+      <span class="chip" id="topStack">我的筹码 <b>0</b></span>
+      <span class="spacer"></span>
+      <button class="btn" id="btnReview">复盘</button>
+      <button class="btn" id="btnSetup">重新开局</button>
+    </div>
+    <!-- feltArea 由 ui.js 动态构建 -->
+  </div>
+
+  <div id="side">
+    <div id="sideHead"><span>对局记录</span></div>
+    <div id="logList"></div>
+  </div>
+
+</div>
+
+<!-- 开局设置 -->
+<div class="modal" id="setupModal">
+  <div class="panel">
+    <h2>开局设置</h2>
+    <div class="sub">所有参数可自由填写，中途改设置会重开一局。</div>
+
+    <div class="field">
+      <div><label>起始筹码</label><div class="desc">每位玩家带入的筹码量</div></div>
+      <input type="number" id="inStack" min="10" step="100" value="2000">
+    </div>
+    <div class="field">
+      <div><label>小盲</label><div class="desc">每手强制下注的小盲额</div></div>
+      <input type="number" id="inSB" min="1" step="1" value="10">
+    </div>
+    <div class="field">
+      <div><label>大盲</label><div class="desc">必须大于小盲，且不超过起始筹码一半</div></div>
+      <input type="number" id="inBB" min="2" step="1" value="20">
+    </div>
+    <div class="field">
+      <div><label>AI 人数</label><div class="desc">1 个即单挑（2 人桌），最多 5 个（6 人桌）</div></div>
+      <select id="inAI">
+        <option value="1">1（单挑）</option>
+        <option value="2">2（3 人桌）</option>
+        <option value="3" selected>3（4 人桌）</option>
+        <option value="4">4（5 人桌）</option>
+        <option value="5">5（6 人桌）</option>
+      </select>
+    </div>
+
+    <div class="errmsg" id="errSetup"></div>
+    <div class="actions">
+      <button class="btn" id="btnSetupCancel">取消</button>
+      <button class="btn primary" id="btnSetupOk">开始</button>
+    </div>
+  </div>
+</div>
+
+<!-- 复盘 -->
+<div class="modal" id="reviewModal">
+  <div class="panel" style="width:min(760px,94vw)">
+    <h2>复盘</h2>
+    <div class="sub">每个决策点都按「不知道对手底牌」的公开信息重新计算理论最优选择，并与你的实际选择对比。</div>
+    <div id="revBody"></div>
+    <div class="actions">
+      <button class="btn" id="btnRevClose">关闭</button>
+    </div>
+  </div>
+</div>
+
+<script>
+/*__TABLE_169__*/
+</script>
+<script>
+/*__RANGE_SPECS__*/
+</script>
+<script>
+/*__CORE__*/
+</script>
+<script>
+/*__EQUITY__*/
+</script>
+<script>
+/*__AI__*/
+</script>
+<script>
+/*__REVIEW__*/
+</script>
+<script>
+/*__UI__*/
+</script>
+</body>
+</html>

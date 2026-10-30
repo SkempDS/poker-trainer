@@ -1,0 +1,89 @@
+﻿S1 AA vs KK 81.98 0.5s
+S1 AA vs QQ 81.53 1.0s
+S1 AA vs 76s 77.68 1.5s
+S1 AA vs AKs 87.95 2.0s
+S1 KK vs QQ 81.92 2.4s
+S1 KK vs AKs 66.02 2.9s
+S1 QQ vs JJ 81.84 3.9s
+S1 QQ vs AKs 54.13 4.9s
+S1 JJ vs AKs 53.94 5.9s
+S1 JJ vs AKo 56.47 6.9s
+S1 TT vs AKs 54.43 7.9s
+S1 99 vs AKo 55.13 8.8s
+S1 55 vs AKs 51.89 9.8s
+S1 22 vs AKs 49.82 10.8s
+S1 22 vs KQo 50.91 11.8s
+S1 AKs vs QQ 46.19 12.8s
+S1 AKs vs AKo 52.6 13.8s
+S1 AKs vs 76s 60.92 14.8s
+S1 AKo vs 76s 58.67 15.8s
+S1 AQo vs KQs 70.24 16.7s
+S1 AJo vs KQo 59.75 17.7s
+S1 KQo vs 87s 60.53 18.7s
+S1 T9s vs 44 52.9 19.7s
+S1 A5s vs KQo 60.03 20.7s
+RANGE UTG 开池 148 11.2
+RANGE HJ 开池 244 18.4
+RANGE CO 开池 382 28.8
+RANGE BTN 开池 642 48.4
+RANGE SB 开池 686 51.7
+RANGE BB 防守 vs BTN 854 64.4
+RANGE BB 防守 vs UTG 346 26.1
+S3 AA {'hand': 'AA', 'UTG 开池': 83.3, 'CO 开池': 83.6, 'BTN 开池': 83.44} 22.2s
+S3 KK {'hand': 'KK', 'UTG 开池': 74.41, 'CO 开池': 77.86, 'BTN 开池': 79.07} 23.7s
+S3 QQ {'hand': 'QQ', 'UTG 开池': 67.57, 'CO 开池': 73.79, 'BTN 开池': 75.84} 25.2s
+S3 JJ {'hand': 'JJ', 'UTG 开池': 60.84, 'CO 开池': 69.15, 'BTN 开池': 74.12} 26.6s
+S3 TT {'hand': 'TT', 'UTG 开池': 56.02, 'CO 开池': 64.26, 'BTN 开池': 70.16} 28.2s
+S3 99 {'hand': '99', 'UTG 开池': 51.39, 'CO 开池': 60.32, 'BTN 开池': 66.27} 29.6s
+S3 88 {'hand': '88', 'UTG 开池': 48.52, 'CO 开池': 55.88, 'BTN 开池': 61.97} 31.1s
+S3 77 {'hand': '77', 'UTG 开池': 45.23, 'CO 开池': 53.62, 'BTN 开池': 58.94} 32.6s
+S3 66 {'hand': '66', 'UTG 开池': 43.11, 'CO 开池': 51.76, 'BTN 开池': 54.64} 34.1s
+S3 55 {'hand': '55', 'UTG 开池': 39.97, 'CO 开池': 48.96, 'BTN 开池': 51.41} 35.6s
+S3 AKs {'hand': 'AKs', 'UTG 开池': 57.64, 'CO 开池': 63.43, 'BTN 开池': 64.5} 37.1s
+S3 AKo {'hand': 'AKo', 'UTG 开池': 55.73, 'CO 开池': 60.84, 'BTN 开池': 62.59} 38.6s
+S3 AQs {'hand': 'AQs', 'UTG 开池': 52.39, 'CO 开池': 60.76, 'BTN 开池': 63.11} 40.1s
+S3 AQo {'hand': 'AQo', 'UTG 开池': 49.89, 'CO 开池': 59.13, 'BTN 开池': 61.45} 41.6s
+S3 AJs {'hand': 'AJs', 'UTG 开池': 47.06, 'CO 开池': 59.18, 'BTN 开池': 61.81} 43.1s
+S3 AJo {'hand': 'AJo', 'UTG 开池': 43.6, 'CO 开池': 56.87, 'BTN 开池': 60.14} 44.7s
+S3 ATs {'hand': 'ATs', 'UTG 开池': 43.44, 'CO 开池': 56.46, 'BTN 开池': 60.4} 46.1s
+S3 KQs {'hand': 'KQs', 'UTG 开池': 44.1, 'CO 开池': 54.33, 'BTN 开池': 57.65} 47.5s
+S3 KQo {'hand': 'KQo', 'UTG 开池': 40.74, 'CO 开池': 52.34, 'BTN 开池': 55.64} 48.3s
+S3 KJs {'hand': 'KJs', 'UTG 开池': 39.91, 'CO 开池': 52.18, 'BTN 开池': 56.18} 49.1s
+S3 QJs {'hand': 'QJs', 'UTG 开池': 39.51, 'CO 开池': 49.66, 'BTN 开池': 54.12} 49.9s
+S3 JTs {'hand': 'JTs', 'UTG 开池': 38.76, 'CO 开池': 44.74, 'BTN 开池': 52.17} 50.7s
+S3 T9s {'hand': 'T9s', 'UTG 开池': 37.87, 'CO 开池': 40.92, 'BTN 开池': 48.38} 51.5s
+S3 98s {'hand': '98s', 'UTG 开池': 36.09, 'CO 开池': 39.22, 'BTN 开池': 44.57} 52.3s
+S3 76s {'hand': '76s', 'UTG 开池': 33.88, 'CO 开池': 38.26, 'BTN 开池': 39.48} 53.1s
+S3 A5s {'hand': 'A5s', 'UTG 开池': 39.61, 'CO 开池': 48.48, 'BTN 开池': 52.57} 53.9s
+S3 22 {'hand': '22', 'UTG 开池': 37.38, 'CO 开池': 43.41, 'BTN 开池': 45.9} 54.8s
+S4 HJ 开池 vs UTG 开池 37.8
+S4 HJ 开池 vs SB 开池 48.2
+S4 CO 开池 vs UTG 开池 37.05
+S4 CO 开池 vs HJ 开池 40.22
+S4 CO 开池 vs SB 开池 46.59
+S4 BTN 开池 vs UTG 开池 37.01
+S4 BTN 开池 vs HJ 开池 40.82
+S4 BTN 开池 vs CO 开池 43.55
+S4 BTN 开池 vs SB 开池 46.4
+S4 SB 开池 vs UTG 开池 37.12
+MULTI 1 82.03 58.6s
+MULTI 2 67.3 59.0s
+MULTI 3 54.2 59.6s
+MULTI 4 44.9 60.3s
+MULTI 5 36.36 61.0s
+MULTI 6 31.34 61.7s
+MULTI 7 22.38 62.5s
+MULTI 8 17.95 63.5s
+RANDOM 1 85.36 65.3s
+RANDOM 2 73.87 68.7s
+RANDOM 3 64.38 73.7s
+RANDOM 4 55.74 80.2s
+RANDOM 5 49.66 88.1s
+RANDOM 6 44.21 97.5s
+RANDOM 7 39.18 108.4s
+RANDOM 8 34.77 120.6s
+SCENE A♥K♥ 双高张 + 坚果同花听牌 vs 顶对/三条 39.41
+SCENE 9♣8♣ 两头顺听牌 + 卡顺 vs 超对 34.01
+SCENE 7♣7♦ 暗三条 vs 坚果同花听牌 80.81
+SCENE A♣Q♦ 顶对 vs 同花听牌 2.54
+DONE 122.4s

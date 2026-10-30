@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>德州扑克 · 赔率与胜率计算器</title>
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body>
+<div id="app">
+
+  <header id="top">
+    <h1>赔率与胜率计算器</h1>
+    <p class="sub">选牌 → 填底池 → 看该不该跟。对手按随机手牌或范围估算，不需要知道对手的牌。</p>
+  </header>
+
+  <main id="main">
+
+    <!-- 左：选牌 -->
+    <section id="left" class="panel">
+      <div class="panel-head">
+        <span class="ttl">你的手牌</span>
+        <button id="btnClear" class="ghost">清空</button>
+      </div>
+      <div id="holeRow" class="row-cards"></div>
+
+      <div class="panel-head mt">
+        <span class="ttl">公共牌</span>
+        <span class="mini-note">按阶段填，翻牌要一次填 3 张</span>
+      </div>
+      <div id="stageTabs" class="stage-tabs"></div>
+      <div id="boardRow" class="row-cards"></div>
+
+      <div class="panel-head mt">
+        <span class="ttl">选牌</span>
+        <span class="mini-note">灰色是已经用掉的，再点一下可以撤回</span>
+      </div>
+      <div id="picker" class="picker"></div>
+    </section>
+
+    <!-- 右：结果 -->
+    <section id="right" class="panel">
+      <div class="panel-head">
+        <span class="ttl">算一算</span>
+        <button id="btnClearCalc" class="ghost">清空</button>
+      </div>
+
+      <div class="fields">
+        <label class="field">
+          <span>底池（不含你要跟的注）</span>
+          <input id="inPot" type="number" min="0" step="1" placeholder="0" value="100">
+        </label>
+        <label class="field">
+          <span>对手下注，你要跟</span>
+          <input id="inCall" type="number" min="0" step="1" placeholder="0" value="50">
+        </label>
+      </div>
+      <div id="callQuick" class="call-quick">
+        <button data-frac="0.25">¼ 池</button>
+        <button data-frac="0.3333">⅓ 池</button>
+        <button data-frac="0.5">½ 池</button>
+        <button data-frac="0.6667">⅔ 池</button>
+        <button data-frac="1">满池</button>
+      </div>
+
+      <div class="fields">
+        <label class="field">
+          <span>对手人数</span>
+          <select id="selOpp"></select>
+        </label>
+        <label class="field">
+          <span>对手范围</span>
+          <select id="selRange"></select>
+        </label>
+      </div>
+      <div id="oppCustomWrap" class="field wide" style="display:none">
+        <span>自定义人数</span>
+        <input id="inOpp" type="number" min="1" max="9" step="1" placeholder="1 ~ 9">
+        <div id="oppHint" class="hint"></div>
+      </div>
+      <div id="customWrap" class="field wide" style="display:none">
+        <span>自定义范围</span>
+        <input id="inCustom" type="text" placeholder="例如 22+,A2s+,KTo+">
+        <div id="customHint" class="hint"></div>
+      </div>
+
+      <div id="result" class="result"></div>
+    </section>
+
+  </main>
+
+  <footer id="foot">
+    胜率用蒙特卡洛模拟，每张牌都过真实牌型评估器；同一局面重复算结果完全一致，不会跳。
+    补牌按「出这张后你的胜率抬高 4 个点以上」判定，所以听花是真 9 张，不是数牌型提升。
+  </footer>
+</div>
+
+<script>
+/*__TABLE_169__*/
+</script>
+<script>
+/*__RANGE_SPECS__*/
+</script>
+<script>
+/*__CORE__*/
+</script>
+<script>
+/*__EQUITY__*/
+</script>
+<script>
+/*__ODDS__*/
+</script>
+<script>
+/*__ODDS_UI__*/
+</script>
+<script>
+window.addEventListener('load', function () {
+  window.PokerOddsUI.init();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,556 @@
+{
+ "matchups": [
+  {
+   "hero": "AA",
+   "villain": "KK",
+   "equity": 81.98,
+   "win": 81.78,
+   "tie": 0.41
+  },
+  {
+   "hero": "AA",
+   "villain": "QQ",
+   "equity": 81.53,
+   "win": 81.31,
+   "tie": 0.43
+  },
+  {
+   "hero": "AA",
+   "villain": "76s",
+   "equity": 77.68,
+   "win": 77.5,
+   "tie": 0.37
+  },
+  {
+   "hero": "AA",
+   "villain": "AKs",
+   "equity": 87.95,
+   "win": 87.35,
+   "tie": 1.21
+  },
+  {
+   "hero": "KK",
+   "villain": "QQ",
+   "equity": 81.92,
+   "win": 81.66,
+   "tie": 0.5
+  },
+  {
+   "hero": "KK",
+   "villain": "AKs",
+   "equity": 66.02,
+   "win": 65.61,
+   "tie": 0.83
+  },
+  {
+   "hero": "QQ",
+   "villain": "JJ",
+   "equity": 81.84,
+   "win": 81.61,
+   "tie": 0.47
+  },
+  {
+   "hero": "QQ",
+   "villain": "AKs",
+   "equity": 54.13,
+   "win": 53.93,
+   "tie": 0.41
+  },
+  {
+   "hero": "JJ",
+   "villain": "AKs",
+   "equity": 53.94,
+   "win": 53.7,
+   "tie": 0.48
+  },
+  {
+   "hero": "JJ",
+   "villain": "AKo",
+   "equity": 56.47,
+   "win": 56.27,
+   "tie": 0.39
+  },
+  {
+   "hero": "TT",
+   "villain": "AKs",
+   "equity": 54.43,
+   "win": 54.23,
+   "tie": 0.4
+  },
+  {
+   "hero": "99",
+   "villain": "AKo",
+   "equity": 55.13,
+   "win": 54.93,
+   "tie": 0.41
+  },
+  {
+   "hero": "55",
+   "villain": "AKs",
+   "equity": 51.89,
+   "win": 51.64,
+   "tie": 0.51
+  },
+  {
+   "hero": "22",
+   "villain": "AKs",
+   "equity": 49.82,
+   "win": 49.29,
+   "tie": 1.07
+  },
+  {
+   "hero": "22",
+   "villain": "KQo",
+   "equity": 50.91,
+   "win": 50.46,
+   "tie": 0.9
+  },
+  {
+   "hero": "AKs",
+   "villain": "QQ",
+   "equity": 46.19,
+   "win": 45.96,
+   "tie": 0.45
+  },
+  {
+   "hero": "AKs",
+   "villain": "AKo",
+   "equity": 52.6,
+   "win": 7.32,
+   "tie": 90.55
+  },
+  {
+   "hero": "AKs",
+   "villain": "76s",
+   "equity": 60.92,
+   "win": 60.7,
+   "tie": 0.43
+  },
+  {
+   "hero": "AKo",
+   "villain": "76s",
+   "equity": 58.67,
+   "win": 58.47,
+   "tie": 0.4
+  },
+  {
+   "hero": "AQo",
+   "villain": "KQs",
+   "equity": 70.24,
+   "win": 69.69,
+   "tie": 1.1
+  },
+  {
+   "hero": "AJo",
+   "villain": "KQo",
+   "equity": 59.75,
+   "win": 59.54,
+   "tie": 0.43
+  },
+  {
+   "hero": "KQo",
+   "villain": "87s",
+   "equity": 60.53,
+   "win": 60.22,
+   "tie": 0.61
+  },
+  {
+   "hero": "T9s",
+   "villain": "44",
+   "equity": 52.9,
+   "win": 52.31,
+   "tie": 1.19
+  },
+  {
+   "hero": "A5s",
+   "villain": "KQo",
+   "equity": 60.03,
+   "win": 59.78,
+   "tie": 0.48
+  }
+ ],
+ "ranges": {
+  "UTG 开池": {
+   "spec": "55+,AJo+,ATs+,KQo,KJs+,QJs,JTs,T9s,98s",
+   "combos": 148,
+   "pct": 11.2
+  },
+  "HJ 开池": {
+   "spec": "33+,ATo+,A8s+,KJo+,K9s+,QTo+,Q9s+,J9s+,T8s+,98s,87s",
+   "combos": 244,
+   "pct": 18.4
+  },
+  "CO 开池": {
+   "spec": "22+,A9o+,A2s+,KTo+,K8s+,Q9o+,Q8s+,J8o+,J8s+,T7s+,97s+,86s+,75s+,65s",
+   "combos": 382,
+   "pct": 28.8
+  },
+  "BTN 开池": {
+   "spec": "22+,A5o+,A2s+,K9o+,K4s+,Q9o+,Q6s+,J8o+,J6s+,T7o+,T5s+,96o+,95s+,86o+,85s+,75o+,74s+,65o+,64s+,54s,43s",
+   "combos": 642,
+   "pct": 48.4
+  },
+  "SB 开池": {
+   "spec": "22+,A5o+,A2s+,K8o+,K4s+,Q9o+,Q6s+,J8o+,J6s+,T8o+,T6s+,96o+,95s+,86o+,85s+,75o+,74s+,64o+,63s+,53o+,52s+,43s",
+   "combos": 686,
+   "pct": 51.7
+  },
+  "BB 防守 vs BTN": {
+   "spec": "22+,A2o+,A2s+,K4o+,K2s+,Q7o+,Q3s+,J8o+,J3s+,T8o+,T3s+,97o+,94s+,86o+,84s+,75o+,74s+,64o+,63s+,53o+,52s+,43o+,42s+,32s",
+   "combos": 854,
+   "pct": 64.4
+  },
+  "BB 防守 vs UTG": {
+   "spec": "22+,A8o+,A2s+,KTo+,K7s+,QTo+,Q8s+,JTo,J9s,J8s,T9s,T8s,98s,87s,76s,65s,54s",
+   "combos": 346,
+   "pct": 26.1
+  }
+ },
+ "hero_vs_range": {
+  "ranges": [
+   "UTG 开池",
+   "CO 开池",
+   "BTN 开池"
+  ],
+  "rows": [
+   {
+    "hand": "AA",
+    "UTG 开池": 83.3,
+    "CO 开池": 83.6,
+    "BTN 开池": 83.44
+   },
+   {
+    "hand": "KK",
+    "UTG 开池": 74.41,
+    "CO 开池": 77.86,
+    "BTN 开池": 79.07
+   },
+   {
+    "hand": "QQ",
+    "UTG 开池": 67.57,
+    "CO 开池": 73.79,
+    "BTN 开池": 75.84
+   },
+   {
+    "hand": "JJ",
+    "UTG 开池": 60.84,
+    "CO 开池": 69.15,
+    "BTN 开池": 74.12
+   },
+   {
+    "hand": "TT",
+    "UTG 开池": 56.02,
+    "CO 开池": 64.26,
+    "BTN 开池": 70.16
+   },
+   {
+    "hand": "99",
+    "UTG 开池": 51.39,
+    "CO 开池": 60.32,
+    "BTN 开池": 66.27
+   },
+   {
+    "hand": "88",
+    "UTG 开池": 48.52,
+    "CO 开池": 55.88,
+    "BTN 开池": 61.97
+   },
+   {
+    "hand": "77",
+    "UTG 开池": 45.23,
+    "CO 开池": 53.62,
+    "BTN 开池": 58.94
+   },
+   {
+    "hand": "66",
+    "UTG 开池": 43.11,
+    "CO 开池": 51.76,
+    "BTN 开池": 54.64
+   },
+   {
+    "hand": "55",
+    "UTG 开池": 39.97,
+    "CO 开池": 48.96,
+    "BTN 开池": 51.41
+   },
+   {
+    "hand": "AKs",
+    "UTG 开池": 57.64,
+    "CO 开池": 63.43,
+    "BTN 开池": 64.5
+   },
+   {
+    "hand": "AKo",
+    "UTG 开池": 55.73,
+    "CO 开池": 60.84,
+    "BTN 开池": 62.59
+   },
+   {
+    "hand": "AQs",
+    "UTG 开池": 52.39,
+    "CO 开池": 60.76,
+    "BTN 开池": 63.11
+   },
+   {
+    "hand": "AQo",
+    "UTG 开池": 49.89,
+    "CO 开池": 59.13,
+    "BTN 开池": 61.45
+   },
+   {
+    "hand": "AJs",
+    "UTG 开池": 47.06,
+    "CO 开池": 59.18,
+    "BTN 开池": 61.81
+   },
+   {
+    "hand": "AJo",
+    "UTG 开池": 43.6,
+    "CO 开池": 56.87,
+    "BTN 开池": 60.14
+   },
+   {
+    "hand": "ATs",
+    "UTG 开池": 43.44,
+    "CO 开池": 56.46,
+    "BTN 开池": 60.4
+   },
+   {
+    "hand": "KQs",
+    "UTG 开池": 44.1,
+    "CO 开池": 54.33,
+    "BTN 开池": 57.65
+   },
+   {
+    "hand": "KQo",
+    "UTG 开池": 40.74,
+    "CO 开池": 52.34,
+    "BTN 开池": 55.64
+   },
+   {
+    "hand": "KJs",
+    "UTG 开池": 39.91,
+    "CO 开池": 52.18,
+    "BTN 开池": 56.18
+   },
+   {
+    "hand": "QJs",
+    "UTG 开池": 39.51,
+    "CO 开池": 49.66,
+    "BTN 开池": 54.12
+   },
+   {
+    "hand": "JTs",
+    "UTG 开池": 38.76,
+    "CO 开池": 44.74,
+    "BTN 开池": 52.17
+   },
+   {
+    "hand": "T9s",
+    "UTG 开池": 37.87,
+    "CO 开池": 40.92,
+    "BTN 开池": 48.38
+   },
+   {
+    "hand": "98s",
+    "UTG 开池": 36.09,
+    "CO 开池": 39.22,
+    "BTN 开池": 44.57
+   },
+   {
+    "hand": "76s",
+    "UTG 开池": 33.88,
+    "CO 开池": 38.26,
+    "BTN 开池": 39.48
+   },
+   {
+    "hand": "A5s",
+    "UTG 开池": 39.61,
+    "CO 开池": 48.48,
+    "BTN 开池": 52.57
+   },
+   {
+    "hand": "22",
+    "UTG 开池": 37.38,
+    "CO 开池": 43.41,
+    "BTN 开池": 45.9
+   }
+  ]
+ },
+ "range_vs_range": [
+  {
+   "a": "UTG 开池",
+   "b": "BB 防守 vs BTN",
+   "a_pct": 11.2,
+   "b_pct": 64.4,
+   "a_equity": 63.7
+  },
+  {
+   "a": "CO 开池",
+   "b": "BB 防守 vs BTN",
+   "a_pct": 28.8,
+   "b_pct": 64.4,
+   "a_equity": 56.6
+  },
+  {
+   "a": "BTN 开池",
+   "b": "BB 防守 vs BTN",
+   "a_pct": 48.4,
+   "b_pct": 64.4,
+   "a_equity": 52.17
+  },
+  {
+   "a": "UTG 开池",
+   "b": "CO 开池",
+   "a_pct": 11.2,
+   "b_pct": 28.8,
+   "a_equity": 58.45
+  },
+  {
+   "a": "UTG 开池",
+   "b": "BTN 开池",
+   "a_pct": 11.2,
+   "b_pct": 48.4,
+   "a_equity": 61.85
+  },
+  {
+   "a": "HJ 开池",
+   "b": "BTN 开池",
+   "a_pct": 18.4,
+   "b_pct": 48.4,
+   "a_equity": 58.06
+  },
+  {
+   "a": "CO 开池",
+   "b": "BTN 开池",
+   "a_pct": 28.8,
+   "b_pct": 48.4,
+   "a_equity": 54.93
+  },
+  {
+   "a": "SB 开池",
+   "b": "BB 防守 vs BTN",
+   "a_pct": 51.7,
+   "b_pct": 64.4,
+   "a_equity": 50.98
+  }
+ ],
+ "multiway_aa": [
+  {
+   "opponents": 1,
+   "equity": 82.03
+  },
+  {
+   "opponents": 2,
+   "equity": 67.3
+  },
+  {
+   "opponents": 3,
+   "equity": 54.2
+  },
+  {
+   "opponents": 4,
+   "equity": 44.9
+  },
+  {
+   "opponents": 5,
+   "equity": 36.36
+  },
+  {
+   "opponents": 6,
+   "equity": 31.34
+  },
+  {
+   "opponents": 7,
+   "equity": 22.38
+  },
+  {
+   "opponents": 8,
+   "equity": 17.95
+  }
+ ],
+ "multiway_aa_random": [
+  {
+   "opponents": 1,
+   "equity": 85.36
+  },
+  {
+   "opponents": 2,
+   "equity": 73.87
+  },
+  {
+   "opponents": 3,
+   "equity": 64.38
+  },
+  {
+   "opponents": 4,
+   "equity": 55.74
+  },
+  {
+   "opponents": 5,
+   "equity": 49.66
+  },
+  {
+   "opponents": 6,
+   "equity": 44.21
+  },
+  {
+   "opponents": 7,
+   "equity": 39.18
+  },
+  {
+   "opponents": 8,
+   "equity": 34.77
+  }
+ ],
+ "postflop_scenes": [
+  {
+   "name": "A♥K♥（坚果同花听牌+两高张）vs 顶对/三条",
+   "hero": "A♥K♥",
+   "board": "Q♥7♥2♣",
+   "opp": "QQ,77,22,AQ,KQ",
+   "equity": 39.53,
+   "combos": 27
+  },
+  {
+   "name": "9♣8♣（两头顺听牌）vs 超对",
+   "hero": "9♣8♣",
+   "board": "7♦6♥2♠",
+   "opp": "AA,KK,QQ,JJ",
+   "equity": 34.08,
+   "combos": 24
+  },
+  {
+   "name": "7♣7♦（暗三条）vs 已成同花",
+   "hero": "7♣7♦",
+   "board": "7♥A♥K♥",
+   "opp": "Q♥J♥,Q♥T♥,J♥T♥,T♥9♥,9♥8♥",
+   "equity": 33.81,
+   "combos": 5
+  },
+  {
+   "name": "A♣Q♦（顶对顶踢）vs 同花听牌",
+   "hero": "A♣Q♦",
+   "board": "Q♥7♥2♠",
+   "opp": "A♥K♥,A♥J♥,K♥J♥,A♥T♥",
+   "equity": 57.91,
+   "combos": 4
+  },
+  {
+   "name": "9♣9♦（三条）vs K 顶对（转牌圈）",
+   "hero": "9♣9♦",
+   "board": "9♥K♠K♦4♣",
+   "opp": "AK,KQ,KJ",
+   "equity": 84.02,
+   "combos": 24
+  },
+  {
+   "name": "6♥5♥（小同花）vs 大同花",
+   "hero": "6♥5♥",
+   "board": "K♥9♥2♥",
+   "opp": "A♥Q♥,A♥J♥,A♥T♥,Q♥J♥",
+   "equity": 0.17,
+   "combos": 4
+  }
+ ]
+}
