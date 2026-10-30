@@ -7,6 +7,17 @@
 ![技术栈](https://img.shields.io/badge/stack-原生%20JS%20%2B%20Python-2f9e5a)
 ![依赖](https://img.shields.io/badge/runtime-%E9%9B%B6%E4%BE%9D%E8%B5%96-blue)
 
+### 在线直接用（手机 / 平板也能玩）
+
+不想下载就用 GitHub Pages 的版本，浏览器打开即玩：
+
+| 工具 | 在线地址 |
+| --- | --- |
+| 对局游戏 | <https://skempds.github.io/poker-trainer/德州扑克.html> |
+| 赔率计算器 | <https://skempds.github.io/poker-trainer/德州扑克-赔率计算器.html> |
+
+> 手机上的牌桌布局还在适配中（座位用百分比绝对定位，窄屏会挤），目前**赔率计算器在手机上体验完整**，对局游戏建议用电脑。
+
 ---
 
 ## 有什么
